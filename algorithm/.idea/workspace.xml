@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46180901-9a2f-4c1f-a96e-02dc05e624b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/2DimensionalSort" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/Count_B_In_A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/FirstNotRepeatingChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/FrogJumpStairs/fjs_general.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/FrogJumpStairs/fjs_upgrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/Longest_common_subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/BFS/BFS_traversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/BFS/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/DFS/DFS_traversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/DFS/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/inOrder/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/inOrder/inOrder_Traversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/postOrder/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/postOrder/postOrder_Traversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/preOrder/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/preOrder/preOrder_Traversing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/exchangeStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/findMiddleNode/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/findMiddleNode/findMiddlebNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/getBin1Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/isBinarySortTreePostOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/longestPalindromeSubseq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/maxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/printLinkedListReverse/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/printLinkedListReverse/printLinkedListReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/rebuildBinaryTree/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/rebuildBinaryTree/rebuildBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/reverseLinkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/reverseLinkedList/reverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/serializeBinaryTree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/serializeBinaryTree/solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/sort/exchange_sort/bubblesort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/sort/exchange_sort/quicksort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/sort/insertion_sort/insertionsort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/sort/merge_sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/sort/selection_sort/StraightSelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/test6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/twoDimensionalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/scene/twoStackToQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/Count_B_In_A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/FirstNotRepeatingChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/FrogJumpStairs/fjs_general.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/FrogJumpStairs/fjs_upgrade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/Longest_common_subsequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/BFS/BFS_traversing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/BFS/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/DFS/DFS_traversing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/DFS/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/inOrder/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/inOrder/inOrder_Traversing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/postOrder/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/postOrder/postOrder_Traversing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/preOrder/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/preOrder/preOrder_Traversing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/exchangeStr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/findMiddleNode/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/findMiddleNode/findMiddlebNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/getBin1Count.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/isBinarySortTreePostOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/longestPalindromeSubseq.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/maxSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/printLinkedListReverse/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/printLinkedListReverse/printLinkedListReverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/rebuildBinaryTree/BinaryTreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/rebuildBinaryTree/rebuildBinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/reverseLinkedList/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/reverseLinkedList/reverseLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/serializeBinaryTree/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/serializeBinaryTree/solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/sort/exchange_sort/bubblesort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/sort/exchange_sort/quicksort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/sort/insertion_sort/insertionsort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/sort/merge_sort/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/sort/selection_sort/StraightSelectSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/test2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/test3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/test4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/test5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/test6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/test7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/twoDimensionalSort$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/twoDimensionalSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scene/twoStackToQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ThreadTest$MultiThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/ThreadTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/findMiddleNode/findMiddlebNode.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/BFS/Node.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/test4.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/postOrder/Node.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ThreadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/2DimensionalSort">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="114" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/twoDimensionalSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/Count_B_In_A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/serializeBinaryTree/solution.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scene/2DimensionalSort.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/scene/twoDimensionalSort.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="algorithm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-30" />
+    <option name="y" value="340" />
+    <option name="width" value="1350" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Git/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\idea\workspace\algorithm\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="twoDimensionalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scene.twoDimensionalSort" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scene.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.twoDimensionalSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46180901-9a2f-4c1f-a96e-02dc05e624b6" name="Default Changelist" comment="" />
+      <created>1583891229453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583891229453</updated>
+      <workItem from="1583891232811" duration="521000" />
+      <workItem from="1583891773059" duration="1290000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1811000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32914925" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32914925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.25603217" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/test7.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/twoStackToQueue.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/exchangeStr.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/sort/exchange_sort/bubblesort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/findMiddleNode/findMiddlebNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/BFS/Node.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/test4.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/postOrder/Node.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/2DimensionalSort">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="114" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/Count_B_In_A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/serializeBinaryTree/solution.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/twoDimensionalSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
