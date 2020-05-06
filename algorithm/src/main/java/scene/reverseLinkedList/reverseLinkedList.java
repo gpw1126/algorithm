@@ -12,10 +12,11 @@ package scene.reverseLinkedList;
  *  4.保存的下一节点成为当前结点
  *
  *  此时当前结点为空，则返回上一结点，即为反转链表的头结点
- * @Version:1.0
+ *  时间复杂度 O(n)
  **/
 public class reverseLinkedList {
     public static Node reverseLinkedList(Node head){
+
         if(head == null)
             return null;
         //前一结点

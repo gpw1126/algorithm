@@ -12,12 +12,16 @@ import java.util.List;
  * @Author:Gpw
  * @Date:2020/3/11
  * @Description:
- *  二维排序，在一定的排序基础上再加一轮排序
- * @Version:1.0
+ *  二维排序，在一定的排序基础上（SessionOffset）再加一轮排序（begin）
+ *  ps.还可以使用comparator接口进行实现
+ *
+ *  java实现对象排序的方式有两种：
+ *   自然排序：java.lang.Comparable
+ *   定制排序：java.util.Comparator
  */
 public class twoDimensionalSort {
 
-    public static String sortBySessionOffset(String slots) {
+    public static String sort(String slots) {
 
         JSONArray slotArr = JSONArray.parseArray(slots);
         JSONArray sortedSlotArr = new JSONArray();
@@ -35,11 +39,11 @@ public class twoDimensionalSort {
                 int dif = 0;
                 int a = o2.getIntValue("session_offset") - o1.getIntValue("session_offset");
                 if (a != 0) {
-                    dif = (a > 0) ? -1 : 3;
+                    dif = (a > 0) ? -1 : 1;
                 } else {
                     a = o2.getIntValue("begin") - o1.getIntValue("begin");
                     if (a != 0) {
-                        dif = (a > 0) ? -2 : 2;
+                        dif = (a > 0) ? -1 : 1;
                     }
                 }
                 return dif;
@@ -118,7 +122,7 @@ public class twoDimensionalSort {
                 "                        }\n" +
                 "]";
 
-        String sortStr = sortBySessionOffset(slots);
+        String sortStr = sort(slots);
         System.out.println("排序后：" + sortStr);
     }
 }

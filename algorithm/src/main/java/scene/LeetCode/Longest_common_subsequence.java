@@ -1,11 +1,11 @@
-package scene;
+package scene.LeetCode;
 
 import java.util.Scanner;
 
 /**
  * @Author:Gpw
  * @Date:2019/10/11
- * @Description:scene
+ * @Description: LeetCode 1143
  *  1.最长公共子序列
  *  2.最长连续公共子序列
  *
@@ -42,7 +42,7 @@ public class Longest_common_subsequence {
         for(int i = 0;i < m;i++){
             for(int j = 0;j < n;j++){
                 if(a[i]==b[j])
-                    c[i+1][j+1] = c[i][j] + 1;
+                    c[i+1][j+1] = c[i][j] + 1;  //int[] 默认值为0
                 if(c[i+1][j+1] > maxlen)
                     maxlen = c[i+1][j+1];
             }

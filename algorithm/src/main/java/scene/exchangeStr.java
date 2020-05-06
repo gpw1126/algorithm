@@ -8,6 +8,11 @@ package scene;
  * @Version:1.0
  **/
 public class exchangeStr {
+    /**
+     * 方法一
+     * @param str
+     * @return
+     */
     public static String solution(String str){
         String[] strArr = str.split(" ");
         StringBuffer sb = new StringBuffer("");
@@ -16,6 +21,29 @@ public class exchangeStr {
         }
         sb.append(strArr[strArr.length-1]);
         return sb.toString();
+    }
+
+    /**
+     * 剑指offer 5的解法
+     * @param s
+     * @return
+     */
+    public String replaceSpace(String s) {
+        int length = s.length();
+        char[] array = new char[length * 3];
+        int size = 0;
+        for (int i = 0; i < length; i++) {
+            char c = s.charAt(i);
+            if (c == ' ') {
+                array[size++] = '%';
+                array[size++] = '2';
+                array[size++] = '0';
+            } else {
+                array[size++] = c;
+            }
+        }
+        String newStr = new String(array, 0, size);
+        return newStr;
     }
 
     public static void main(String[] args) {
