@@ -1,5 +1,5 @@
 import org.junit.Test;
-import scene.MinStack;
+import scene.LeetCode.MinStack;
 
 import java.util.ArrayList;
 import java.util.Arrays;

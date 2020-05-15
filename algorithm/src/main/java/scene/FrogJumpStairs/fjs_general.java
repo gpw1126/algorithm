@@ -14,7 +14,6 @@ package scene.FrogJumpStairs;
  * f(1) = 1
  * f(2) = 2
  * f(n) = f(n-1) + f(n-2)
- * @Version:1.0
  */
 public class fjs_general {
 
@@ -36,9 +35,9 @@ public class fjs_general {
             return 2;
         int x = 1,y = 2,z;
         for (int i = 3;i <= num;i++){
-            z = y;
-            y= x + y;
-            x = z;
+            z = x + y;
+            x = y;
+            y = z;
         }
         return y;
     }

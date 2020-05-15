@@ -1,11 +1,12 @@
-package scene;
+package scene.LeetCode;
 
 import java.util.Stack;
 
 /**
  * @Author:Gpw
  * @Date:2020/3/23
- * @Description:设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈
+ * @Description:  剑指offer 30   LeetCode 155
+ *  设计一个支持 push，pop，top 操作，并能在常数时间内检索到最小元素的栈
  */
 public class MinStack {
 

@@ -1,4 +1,4 @@
-package scene;
+package scene.LeetCode.firstUniqChar;
 
 /**
  * @Author:Gpw
