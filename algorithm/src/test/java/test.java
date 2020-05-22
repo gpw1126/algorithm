@@ -2,7 +2,6 @@ import org.junit.Test;
 import scene.LeetCode.MinStack;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -61,9 +60,11 @@ public class test {
     }
 
     @Test
-    public void test3() {
-        char[] a = "salkhgbanglas".toCharArray();
-        int m = a.length;
-        int n = "shgskdhgjkshdg".length();
+    public void t() {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.remove(0);
+        System.out.println(list.get(0));
     }
 }
