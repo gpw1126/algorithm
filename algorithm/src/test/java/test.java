@@ -14,7 +14,7 @@ import java.util.List;
 public class test {
 
     /**
-     * 快速失败机制，java集合(Collection)中的一种错误检测机制，集合修改时使用集合本身的方法会出发。
+     * 快速失败机制，java集合(Collection)中的一种错误检测机制，集合修改时使用集合本身的方法会触发。
      */
     @Test
     public void failFast() {
@@ -29,14 +29,6 @@ public class test {
             }
             System.out.println(s);
         }
-    }
-
-    @Test
-    public void test1() {
-        byte a = 127;
-        byte b = 127;
-        a += b;
-        System.out.println(a);
     }
 
 //    // 异或
@@ -61,10 +53,29 @@ public class test {
 
     @Test
     public void t() {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(2);
-        list.remove(0);
-        System.out.println(list.get(0));
+        byte a = 127;
+        byte b = 127;
+
+//        // 编译出错，可能超范围，丢失精度，可强转
+//        a = a + b;
+
+        // 结果 -2
+//        01111111
+//       +01111111
+//        11111110  补码
+//        11111101  反码
+//        10000010  原码 -2
+        a += b;
+        System.out.println(a);
+    }
+
+    @Test
+    public void split() {
+        String s = "a good   example";
+        String[] array = s.split(" ");
+        for (String str : array) {
+            str.trim();
+            System.out.println(str);
+        }
     }
 }

@@ -1,5 +1,8 @@
 package scene.rebuildBinaryTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * @Author:Gpw
  * @Date:2019/9/22
@@ -27,20 +30,44 @@ public class rebuildBinaryTree {
 
         BinaryTreeNode root = new BinaryTreeNode(preOrder[startPre]);
 
-        for(int i = startIn;i < endIn;i++){
+        for(int i = startIn;i <= endIn;i++){
             if(inOrder[i] == preOrder[startPre]){
-                root.left = rebuildBinaryTree(preOrder,startPre+1,startPre+i-startIn,inOrder,startIn,i-1);
-                root.right = rebuildBinaryTree(preOrder,startPre+i-startIn+1,endPre,inOrder,i+1,endIn);
+                root.left = rebuildBinaryTree(preOrder,startPre+1,startPre+(i-startIn),inOrder,startIn,i-1);
+                root.right = rebuildBinaryTree(preOrder,startPre+(i-startIn)+1,endPre,inOrder,i+1,endIn);
             }
         }
 
         return root;
     }
 
+    /**
+     * BFS方式打印重建的二叉树
+     * @param root
+     */
+    public static void BFS(BinaryTreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        Queue<BinaryTreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            BinaryTreeNode node = queue.poll();
+            System.out.println(node.data);
+            if (node.left != null) {
+                queue.add(node.left);
+            }
+            if (node.right != null) {
+                queue.add(node.right);
+            }
+        }
+    }
+
     //结果打印有待改善
     public static void main(String[] args) {
         int[] preOrder = {1,2,4,7,3,5,6,8};
         int[] inOrder = {4,7,2,1,5,3,8,6};
-        System.out.println(rebuildBinaryTree(preOrder,inOrder));
+        BFS(rebuildBinaryTree(preOrder, inOrder));
     }
 }
