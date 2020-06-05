@@ -1,4 +1,4 @@
-package scene;
+package scene.LeetCode.parenthesesRelated;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -19,7 +19,7 @@ import java.util.Stack;
  * false
  * @Version: 1.0
  */
-public class test4 {
+public class parenthesesMatch {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

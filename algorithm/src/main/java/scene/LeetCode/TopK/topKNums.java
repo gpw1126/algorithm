@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class topK {
+public class topKNums {
 
     /**
      * 剑指offer 40   找出最小的k个数

@@ -1,4 +1,4 @@
-package scene;
+package scene.QueueImpl.twoStackToQueue;
 
 import java.util.Stack;
 

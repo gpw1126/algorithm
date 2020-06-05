@@ -2,7 +2,10 @@ import org.junit.Test;
 import scene.LeetCode.MinStack;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
+import java.util.logging.Logger;
 
 /**
  * @Author:Gpw
@@ -12,6 +15,8 @@ import java.util.List;
  */
 
 public class test {
+
+    Logger log = Logger.getLogger("test");
 
     /**
      * 快速失败机制，java集合(Collection)中的一种错误检测机制，集合修改时使用集合本身的方法会触发。
@@ -77,5 +82,28 @@ public class test {
             str.trim();
             System.out.println(str);
         }
+        log.info("hhh");
+//        LinkedList<Integer> list = new LinkedList<>();
+//        list.addFirst();
+    }
+
+    @Test
+    public void lambdaTest() {
+        System.out.println(1 == 2 ? -1 : -2 - 3);
+    }
+
+    @Test
+    public void listTest() {
+        List<String> list = new ArrayList<>();
+        list.add("i");
+        list.add("love");
+        list.add("you");
+//        for (String s : list.subList(0, 2)) {
+//            System.out.println(s);
+//        }
+
+        // lambda
+//        list.forEach(s -> System.out.println(s));
+        new Thread(() -> System.out.println(Thread.currentThread().getName())).start();
     }
 }

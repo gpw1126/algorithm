@@ -1,4 +1,4 @@
-package scene;
+package scene.LeetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
