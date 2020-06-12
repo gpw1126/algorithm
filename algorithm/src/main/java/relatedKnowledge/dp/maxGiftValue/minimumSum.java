@@ -1,4 +1,4 @@
-package scene;
+package relatedKnowledge.dp.maxGiftValue;
 
 /**
  * @Author:Gpw
@@ -7,7 +7,7 @@ package scene;
  * 寻找一条从左上角（arr[0][0]）到右下角（arr[m-1][n-1]）的路线，使得沿途经过的数组中的整数和最小
  * @Version:1.0
  **/
-public class test7 {
+public class minimumSum {
     /**
      * 思考：
      * 可以从右下角开始倒着分析：最后一步到达 arr[m-1][n-1]只有两条路，即通过 arr[m-2][n-1]或 arr[m-1][n-2]，假设从 arr[0][0]到
