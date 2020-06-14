@@ -47,12 +47,12 @@ public class compressString {
             String[] split = repeatStr.split("\\|");
 
             //最后两行的作用说白了就是下面的过程
-            //String c = "";
-            //int m = Integer.parseInt(split[0]);
-            //for(int i=0;i<m;i++) c=c+split[1];
-            //text = text.replace("[" + repeatStr + "]",c);
-            text = text.replace("[" + repeatStr + "]",
-                    String.join("", Collections.nCopies(Integer.parseInt(split[0]), split[1])));
+            String c = "";
+            int m = Integer.parseInt(split[0]);
+            for(int i=0;i<m;i++) c=c+split[1];
+            text = text.replace("[" + repeatStr + "]",c);
+//            text = text.replace("[" + repeatStr + "]",
+//                    String.join("", Collections.nCopies(Integer.parseInt(split[0]), split[1])));
         }
         return text;
     }

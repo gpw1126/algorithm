@@ -1,5 +1,6 @@
 import org.junit.Test;
 import scene.LeetCode.MinStack;
+import scene.serializeBinaryTree.Node;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

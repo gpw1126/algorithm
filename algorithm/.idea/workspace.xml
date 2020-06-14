@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46180901-9a2f-4c1f-a96e-02dc05e624b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/gaopw.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scene/2DimensionalSort" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scene/Longest_common_subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scene/LeetCode/Longest_common_subsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scene/exchangeStr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scene/exchangeStr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scene/reverseLinkedList/reverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scene/reverseLinkedList/reverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scene/twoDimensionalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scene/twoDimensionalSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scene/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scene/Longest_common_subsequence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scene/exchangeStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/exchangeStr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scene/reverseLinkedList/reverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/reverseLinkedList/reverseLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scene/twoDimensionalSort$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/twoDimensionalSort$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scene/twoDimensionalSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/twoDimensionalSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThreadTest$MultiThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scene/LeetCode/TopK/topKFrequentWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scene/NOWCODER/compressString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scene/NOWCODER/compressString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/FirstNotRepeatingChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/FrogJumpStairs/fjs_general.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/FrogJumpStairs/fjs_general.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/BFS/BFS_traversing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/BFS/BFS_traversing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/DFS/DFS_traversing.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/TraversingBinaryTree/DFS/DFS_traversing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/isBinarySortTreePostOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/maxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/rebuildBinaryTree/rebuildBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scene/rebuildBinaryTree/rebuildBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scene/twoStackToQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,20 +32,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/oddBeforeEven/topic.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scene/NOWCODER/compressString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="741">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/oddBeforeEven/upgrade.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/relatedKnowledge/Generic/GenericObj.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="231">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/relatedKnowledge/Generic/GenericTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WrittenExamination/vivo/mergeKLists/mergeKLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="771">
+              <caret line="120" column="9" lean-forward="true" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -99,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/removeLinkedListElements/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/removeLinkedListElements/removeLinkedListElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/scene/reverseLinkedList/reverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test.java" />
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/reverseBinaryTree/reverseBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/invertBinaryTree/reverseBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/invertBinaryTree/TreeNode.java" />
@@ -111,6 +136,11 @@
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/rotateArrayRelated/minValueInRotateSortArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/oddBeforeEven/topic.java" />
         <option value="$PROJECT_DIR$/src/main/java/scene/LeetCode/oddBeforeEven/upgrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scene/NOWCODER/compressString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scene/serializeBinaryTree/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/relatedKnowledge/Generic/GenericObj.java" />
+        <option value="$PROJECT_DIR$/src/main/java/relatedKnowledge/Generic/GenericTestCase.java" />
       </list>
     </option>
   </component>
@@ -203,6 +233,52 @@
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WrittenExamination" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WrittenExamination" type="462c0819:PsiDirectoryNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WrittenExamination" type="462c0819:PsiDirectoryNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+              <item name="mergeKLists" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WrittenExamination" type="462c0819:PsiDirectoryNode" />
+              <item name="vivo" type="462c0819:PsiDirectoryNode" />
+              <item name="pic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,10 +308,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -257,13 +333,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.upgrade">
-    <configuration name="lengthOfLongestSubstringWithoutRepeatedCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scene.LeetCode.lengthOfLongestSubstringWithoutRepeatedCharacter" />
+  <component name="RunManager" selected="Application.GenericTestCase">
+    <configuration name="GenericTestCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="relatedKnowledge.Generic.GenericTestCase" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scene.LeetCode.rotateArrayRelated.*" />
+          <option name="PATTERN" value="relatedKnowledge.Generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,38 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scene.reverseLinkedList.reverseLinkedList" />
+    <configuration name="compressString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scene.NOWCODER.compressString" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scene.reverseLinkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="shallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="relatedKnowledge.shallowCopy.shallowCopy" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="relatedKnowledge.shallowCopy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="topic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="scene.LeetCode.oddBeforeEven.topic" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scene.LeetCode.oddBeforeEven.*" />
+          <option name="PATTERN" value="scene.NOWCODER.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,13 +373,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.lambdaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="lambdaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericTestCase" />
+        <item itemvalue="JUnit.test.lambdaTest" />
+        <item itemvalue="JUnit.test.test2" />
+        <item itemvalue="Application.compressString" />
         <item itemvalue="Application.upgrade" />
-        <item itemvalue="Application.topic" />
-        <item itemvalue="Application.reverseLinkedList" />
-        <item itemvalue="Application.shallowCopy" />
-        <item itemvalue="Application.lengthOfLongestSubstringWithoutRepeatedCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +433,14 @@
       <workItem from="1587022657403" duration="3743000" />
       <workItem from="1587603839557" duration="2935000" />
       <workItem from="1587695454171" duration="11073000" />
-      <workItem from="1588775524005" duration="489000" />
+      <workItem from="1588775524005" duration="963000" />
+      <workItem from="1588944143326" duration="58000" />
+      <workItem from="1590313147151" duration="124000" />
+      <workItem from="1590916316856" duration="888000" />
+      <workItem from="1591361503174" duration="103000" />
+      <workItem from="1591405573088" duration="4069000" />
+      <workItem from="1592010949779" duration="3976000" />
+      <workItem from="1592121918140" duration="4541000" />
     </task>
     <task id="LOCAL-00001" summary="算法工程提交">
       <created>1583893111633</created>
@@ -372,16 +449,17 @@
       <option name="project" value="LOCAL" />
       <updated>1583893111633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增题目提交">
+      <created>1588776314994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588776314994</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_failFast - 2020.03.19 at 16h 54m 28s.xml">
-      <configuration name="test.failFast" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="test_failFast - 2020.03.20 at 10h 00m 11s.xml">
-      <configuration name="test.failFast" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="test_failFast - 2020.03.20 at 10h 11m 38s.xml">
       <configuration name="test.failFast" configurationId="JUnit" />
     </history-entry>
@@ -406,14 +484,20 @@
     <history-entry file="test_test3 - 2020.03.26 at 10h 14m 03s.xml">
       <configuration name="test.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="test_test2 - 2020.06.13 at 10h 25m 48s.xml">
+      <configuration name="test.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_lambdaTest - 2020.06.13 at 10h 26m 16s.xml">
+      <configuration name="test.lambdaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93128000" />
+    <option name="totallyTimeSpent" value="107358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21581769" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20643431" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -430,7 +514,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.42318437" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42259413" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3282123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -449,85 +533,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="算法工程提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法工程提交" />
+    <MESSAGE value="新增题目提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增题目提交" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/test7.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/sort/exchange_sort/bubblesort.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/findMiddleNode/findMiddlebNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/BFS/Node.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/2DimensionalSort" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/Count_B_In_A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/serializeBinaryTree/solution.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/TraversingBinaryTree/postOrder/Node.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13377">
-          <caret line="683" column="45" selection-start-line="683" selection-start-column="36" selection-end-line="683" selection-end-column="45" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="98" column="25" lean-forward="true" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../jdk1.8/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="317" column="23" lean-forward="true" selection-start-line="317" selection-start-column="23" selection-end-line="317" selection-end-column="23" />
-          <folding>
-            <element signature="e#11798#11799#0" expanded="true" />
-            <element signature="e#11833#11834#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/maxSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/MinStack.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/maxSubArray.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/lengthOfLongestSubstringWithoutRepeatedCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="519">
@@ -641,16 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/invertBinaryTree/reverseBinaryTree.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/invertBinaryTree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -674,16 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/invertBinaryTree/invertBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,17 +744,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scene/twoStackToQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/twoStackToQueue.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/scene/FrogJumpStairs/fjs_general.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -800,6 +781,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/oddBeforeEven.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/TopK/topKFrequentWords.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/TopK/topKFrequentElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/oddBeforeEven/topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -809,8 +798,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/oddBeforeEven/upgrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="504">
           <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/invertBinaryTree/invertBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/rebuildBinaryTree/rebuildBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/MinStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/serializeBinaryTree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WrittenExamination/vivo/pic/948333164_1591518680906_discuss_1591518681086.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="93" column="5" lean-forward="true" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#2013#2014#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/LeetCode/mergeIntervals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relatedKnowledge/Generic/GenericObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relatedKnowledge/dp/maxGiftValue/maxGiftValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/relatedKnowledge/Generic/GenericTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WrittenExamination/vivo/mergeKLists/mergeKLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="120" column="9" lean-forward="true" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scene/NOWCODER/compressString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
