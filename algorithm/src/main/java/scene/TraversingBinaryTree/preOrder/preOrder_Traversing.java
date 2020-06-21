@@ -29,7 +29,7 @@ public class preOrder_Traversing {
                 stack.push(node);
                 node = node.left;
             }
-            while(!stack.isEmpty()){
+            if(!stack.isEmpty()){
                 node = stack.pop();
                 node = node.right;
             }

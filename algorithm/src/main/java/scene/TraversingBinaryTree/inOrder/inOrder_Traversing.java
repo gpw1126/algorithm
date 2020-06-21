@@ -28,7 +28,7 @@ public class inOrder_Traversing {
                 stack.push(node);
                 node = node.left;
             }
-            while(!stack.isEmpty()){
+            if(!stack.isEmpty()){
                 node = stack.pop();
                 System.out.println(node.data);
                 node = node.right;

@@ -9,6 +9,7 @@ import java.util.Stack;
  * @Version:1.0
  */
 public class postOrder_Traversing {
+
     //方法一：递归
     public static void traverse01(Node node){
         if(node != null){
@@ -29,32 +30,28 @@ public class postOrder_Traversing {
             return;
 
         //当前访问结点
-        Node curNode = node;
+        Node curNode = null;
         //上次访问结点
-        Node lastNode = node;
+        Node preNode = null;
 
         Stack<Node> stack = new Stack<Node>();
+        stack.push(node);
 
-        //将左下角作为当前访问节点
-        while(curNode != null){
-            stack.push(curNode);
-            curNode = curNode.left;
-        }
-
-        while(!stack.isEmpty()){
-            curNode = stack.pop();
-            //根节点不被访问前提是右子树不为空或右子树未被访问
-            if(curNode.right != null && curNode.right != lastNode){
-                //根节点再次入栈
-                stack.push(curNode);
-                curNode = curNode.right;
-                while(curNode != null){
-                    stack.push(curNode);
-                    curNode = curNode.left;
+        while (!stack.isEmpty()) {
+            curNode = stack.peek();
+            if ((curNode.left == null && curNode.right == null)
+                    || (preNode != null && (preNode == curNode.left || preNode == curNode.right))) {
+                System.out.println(curNode.data);
+                stack.pop();
+                preNode = curNode;
+            }
+            else {
+                if (curNode.right != null) {
+                    stack.push(curNode.right);
                 }
-            }else{
-                curNode = stack.pop();
-                lastNode = curNode;
+                if (curNode.left != null) {
+                    stack.push(curNode.left);
+                }
             }
         }
     }
