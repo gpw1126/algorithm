@@ -58,6 +58,9 @@ public class priorityQueue {
         ListNode[] lists = {p1, p2};
 
         ListNode node = mergeKLists(lists);
-        System.out.println();
+        while (node != null) {
+            System.out.print(node.val + " ");
+            node = node.next;
+        }
     }
 }

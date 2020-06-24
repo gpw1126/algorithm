@@ -20,18 +20,22 @@ public class preOrder_Traversing {
     }
 
     //非递归
-    public static void traverse02(Node node){
-        Stack<Node> stack = new Stack<Node>();
+    public static void traverse02(Node root){
+        if (root == null) {
+            return;
+        }
 
-        while(node != null || !stack.isEmpty()){
-            while(node != null){
-                System.out.println(node.data);
-                stack.push(node);
-                node = node.left;
+        Stack<Node> stack = new Stack<Node>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            Node node = stack.pop();
+            System.out.println(node.data);
+            if (node.right != null) {
+                stack.push(node.right);
             }
-            if(!stack.isEmpty()){
-                node = stack.pop();
-                node = node.right;
+            if (node.left != null) {
+                stack.push(node.left);
             }
         }
     }

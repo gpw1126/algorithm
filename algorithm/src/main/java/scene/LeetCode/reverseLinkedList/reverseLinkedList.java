@@ -1,9 +1,9 @@
-package scene.reverseLinkedList;
+package scene.LeetCode.reverseLinkedList;
 
 /**
  * @Author:Gpw
  * @Date:2019/9/22
- * @Description:scene.reverseLinkedList
+ * @Description: leetcode 206，剑指offer 24
  * 题目描述：定义一个函数，输入一个链表的头结点，反转该链表并输出反转后链表的头结点
  * 思考：当前结点不为空时，循环一下步骤：
  *  1.保存下一结点

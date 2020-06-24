@@ -1,4 +1,4 @@
-package scene.LRU.LRUCacheManual;
+package relatedKnowledge.LRU.LRUCacheManual;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package scene.reverseLinkedList;
+package scene.LeetCode.reverseLinkedList;
 
 /**
  * @Author:Gpw
@@ -9,13 +9,7 @@ package scene.reverseLinkedList;
 public class Node {
     int data;
     Node next;
-
-    Node(){
-
-    }
-
     Node(int data){
         this.data = data;
     }
-
 }

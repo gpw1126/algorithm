@@ -16,7 +16,7 @@ public class coinChange {
      * dp[i] = x 表示当目标金额为 i 时，至少需要 x 枚硬币。
      *       ⎧ 0, n=0
      * dp(n)=⎨ −1, n<0
-     *       ⎩ min{dp(n−coin)+1 | coin∈coins }, n>0
+     *       ⎩ min{dp(n), dp(n−coin)+1 | coin ∈ coins }, n>0
      * 时间复杂度：O(Sn)，其中 S 是金额，n 是面额数。我们一共需要计算 O(S) 个状态，S 为题目所给的总金额。
      *           对于每个状态，每次需要枚举 n 个面额来转移状态，所以一共需要 O(Sn) 的时间复杂度。
      * 空间复杂度：O(S)。DP 数组需要开长度为总金额 S 的空间。
