@@ -1,5 +1,7 @@
 package relatedKnowledge.LRU.LRUCacheManual;
 
+import lombok.Data;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,6 +15,7 @@ import java.util.Map;
  * （4）LRU实现中有频繁的查找节点并删除，为节省时间（链表查找目标节点需要遍历），使用HashMap保存键-节点映射关系，O(1)的查找+O(1)的删除
  * （5）LRU实现中，要频繁的在头部插入，以及在尾部删除；因此，需要定义head、tail两个节点，方便操作
  */
+@Data
 public class LRUCacheManual {
 
     private LRUNode head;
@@ -61,9 +64,9 @@ public class LRUCacheManual {
 
         // 判断是否需要淘汰数据
         if (map.size() > capacity) {
-            removeLast();
+            LRUNode node1 = removeLast();
             // 结点淘汰后，删除map中的映射
-            map.remove(node.key);
+            map.remove(node1.key);
         }
     }
 

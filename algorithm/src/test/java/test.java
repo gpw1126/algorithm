@@ -107,4 +107,20 @@ public class test {
 //        list.forEach(s -> System.out.println(s));
         new Thread(() -> System.out.println(Thread.currentThread().getName())).start();
     }
+
+    @Test
+    public void yiwei() {
+        System.out.println(1 << 4);
+    }
+
+    @Test
+    public void arraylist() {
+        List<List<Integer>> list = new ArrayList<>();
+        List<Integer> cur = new ArrayList<>();
+        cur.add(3);
+        cur.add(4);
+//        list.add(new ArrayList<>(cur));
+        list.add(cur);
+        System.out.println(list.toString());
+    }
 }
