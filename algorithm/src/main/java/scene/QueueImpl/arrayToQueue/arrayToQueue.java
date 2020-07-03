@@ -50,7 +50,7 @@ public class arrayToQueue{
         return curHead;
     }
 
-    // 返回对头元素
+    // 返回队头元素
     public Object peek() {
         if (size == 0) {
             return null;

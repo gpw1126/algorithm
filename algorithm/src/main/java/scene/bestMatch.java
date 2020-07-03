@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * @Author: Gpw
  * @Date: 2019/8/2
- * @Description: PACKAGE_NAME
+ * @Description:
  * 给定两个长度为N的整型数组A和B。如果Ai==Bj则认为（i，j）为最佳配对。所有的最佳配对在满足以下条件的情况下组成最佳配对集合：
  * A和B中的各个元素最多在集合中出现一次。例如，A =「5， 10， 11，12， 14」，B = 「8， 9 ，11， 11， 5」，配对集合
  * 为「（0，4），（2，2），（2，3）」，因为在集合A中索引2出现了两次，所以上面的配对集合不是最佳配对集合。你的任务是修改B中
@@ -22,9 +22,8 @@ import java.util.Scanner;
  * 1 2 3 3
  * 输出
  * 4
- * @Version: 1.0
  */
-public class test3 {
+public class bestMatch {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 
@@ -38,7 +37,7 @@ public class test3 {
         for(int i = 0; i < n; i++){
             arr1[i] = sc.nextInt();
         }
-        System.out.println("arr1 SUCCESS!");
+//        System.out.println("arr1 SUCCESS!");
 
         for(int i = 0; i < n; i++){
             arr2[i] = sc.nextInt();

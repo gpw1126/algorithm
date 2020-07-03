@@ -18,10 +18,12 @@ public class removeLinkedListElements {
 
         ListNode pre = sentinel, cur = head;
         while (cur != null) {
-            if (cur.val == val)
+            if (cur.val == val) {
                 pre.next = cur.next;
-            else
+            }
+            else {
                 pre.next = cur;
+            }
             cur = cur.next;
         }
         return sentinel.next;

@@ -1,4 +1,4 @@
-package scene.NOWCODER;
+package WrittenExamination.tencent;
 
 import java.util.Scanner;
 

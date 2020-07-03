@@ -1,4 +1,4 @@
-package scene.LeetCode;
+package relatedKnowledge.dp;
 
 import java.util.Scanner;
 
@@ -27,7 +27,7 @@ public class Longest_common_subsequence {
                 if(a[i]==b[j])
                     c[i+1][j+1] = c[i][j] + 1;
                 else
-                    c[i+1][j+1] = c[i+1][j] > c[i][j+1] ? c[i+1][j] : c[i][j+1];
+                    c[i+1][j+1] = Math.max(c[i + 1][j], c[i][j + 1]);
             }
         }
         return c[m][n];

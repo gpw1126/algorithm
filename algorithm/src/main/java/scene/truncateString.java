@@ -5,16 +5,15 @@ import java.util.Scanner;
 /**
  * @Author:Gpw
  * @Date:2019/9/21
- * @Description:scene
+ * @Description:
  * 编写一个截取字符串的函数，输入为一个字符串和字节数，输出为按字节数截取的字符串。但是要保证汉字不被截半个。
  *   例：“人ABC” 4 --> “人AB”   “人ABC们DEF” 6 --> “人ABC”而不是“人ABC+们的半个”
- * @Version:1.0
  **/
-public class test6 {
+public class truncateString {
 
     public static boolean isChinese(char c){
         String s = String.valueOf(c);
-        return s.getBytes().length > 1 ? true : false;
+        return s.getBytes().length > 1;
     }
 
     public static String truncateStr(String str,int len){

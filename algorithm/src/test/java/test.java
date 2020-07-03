@@ -111,6 +111,7 @@ public class test {
     @Test
     public void yiwei() {
         System.out.println(1 << 4);
+        System.out.println("flow".indexOf("flower"));
     }
 
     @Test
@@ -122,5 +123,14 @@ public class test {
 //        list.add(new ArrayList<>(cur));
         list.add(cur);
         System.out.println(list.toString());
+    }
+
+    @Test
+    public void integer() {
+        Integer a =1, b = 1;
+        System.out.println(a == b); // true
+        Integer c = new Integer(1);
+        Integer d = new Integer(1);
+        System.out.println(c == d); //false
     }
 }

@@ -6,23 +6,24 @@ import java.util.Map;
 /**
  * @Author:Gpw
  * @Date:2020/3/26
- * @Description: LeetCode 3  无重复字符的最长子串
- *  优化的滑动窗口，使用 HashMap
- *  如果 s[j] 在 [i, j) 范围内有与 j'重复的字符，不需要逐渐增加 i ，可以直接跳过 [i，j'] 范围内的所有元素，并将 i变为 j' + 1
+ * @Description: LeetCode 3  无重复字符的最长子串  滑动窗口
  */
 public class lengthOfLongestSubstringWithoutRepeatedCharacter {
 
     public static int solution(String s) {
-        int n = s.length(), ans = 0;
-        Map<Character, Integer> map = new HashMap<>();
-        for (int i = 0, j = 0;j < n;j++) {
-            if (map.containsKey(s.charAt(j))) {
-                i = Math.max(map.get(s.charAt(j)), i);
+        if (s.length()==0) return 0;
+        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        int max = 0;
+        int left = 0;
+        for(int i = 0; i < s.length(); i ++){
+            if(map.containsKey(s.charAt(i))){
+                // 有重复，把窗口向后移，也就是将队列左边元素移出
+                left = Math.max(left,map.get(s.charAt(i)) + 1);
             }
-            ans = Math.max(ans, j - i + 1);
-            map.put(s.charAt(j), j + 1);
+            map.put(s.charAt(i),i);
+            max = Math.max(max,i-left+1);
         }
-        return ans;
+        return max;
     }
 
     public static void main(String[] args) {

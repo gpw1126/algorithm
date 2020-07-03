@@ -5,9 +5,7 @@ import java.util.Scanner;
 /**
  * @Author:Gpw
  * @Date:2019/10/10
- * @Description:scene
- *  编写一个方法，输出在一个字符串中，指定字符串出现的次数
- * @Version:1.0
+ * @Description: 编写一个方法，输出在一个字符串中，指定字符串出现的次数
  */
 public class Count_B_In_A {
     public static void main(String[] args) {

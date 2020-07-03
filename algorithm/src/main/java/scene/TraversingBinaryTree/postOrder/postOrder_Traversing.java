@@ -21,11 +21,6 @@ public class postOrder_Traversing {
 
     //方法二：非递归
     public static void traverse02(Node node){
-        /**
-         * 难点：需要判断上次访问的结点是位于左子树还是右子树
-         *  位于左子树：跳过根节点，访问右子树
-         *  位于右子树；直接访问根节点
-         */
         if(node == null)
             return;
 
@@ -34,7 +29,7 @@ public class postOrder_Traversing {
         //上次访问结点
         Node preNode = null;
 
-        Stack<Node> stack = new Stack<Node>();
+        Stack<Node> stack = new Stack<>();
         stack.push(node);
 
         while (!stack.isEmpty()) {

@@ -11,7 +11,6 @@ package scene.LeetCode.oddBeforeEven;
 public class upgrade {
 
     public static String solution(String s) {
-
         int len = s.length();
         int end = len - 1;
         char[] a = s.toCharArray();
@@ -27,8 +26,9 @@ public class upgrade {
                 a[len - 1] = temp;
                 end --;
             }
-            else
+            else {
                 i ++;
+            }
         }
         return String.valueOf(a);
     }

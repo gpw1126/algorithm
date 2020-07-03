@@ -28,7 +28,7 @@ public class maxSubArray {
         int sum = arr[0],max = arr[0];
         for(int i = 1; i < n; i++){
             sum = (sum < 0) ? arr[i] : sum + arr[i];
-            max = (sum > max) ? sum : max;
+            max = Math.max(sum, max);
         }
         System.out.println(max);
     }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @Author: Gpw
  * @Date: 2019/8/1
- * @Description: PACKAGE_NAME
+ * @Description:
  * 给定一个仅由小写字母组成的字符串。现在请找出一个位置，删掉那个字母之后，字符串变成回文。请放心总会有一个合法的解。如果
  * 给定的字符串已经是一个回文串，那么输出-1。
  * 输出描述:
@@ -21,9 +21,8 @@ import java.util.Scanner;
  * 3
  * 0
  * -1
- * @Version: 1.0
  */
-public class test2 {
+public class deleteCharToPalindrome {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

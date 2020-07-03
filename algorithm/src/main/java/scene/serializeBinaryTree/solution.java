@@ -10,7 +10,7 @@ package scene.serializeBinaryTree;
 public class solution {
 
     //序列化
-    static StringBuilder sb = new StringBuilder("");
+    static StringBuilder sb = new StringBuilder();
 
     public static String serialize(Node node){
         if(node == null){
