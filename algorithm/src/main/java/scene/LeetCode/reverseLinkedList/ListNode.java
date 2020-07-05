@@ -6,10 +6,10 @@ package scene.LeetCode.reverseLinkedList;
  * @Description:scene.reverseLinkedList
  * @Version:1.0
  **/
-public class Node {
+public class ListNode {
     int data;
-    Node next;
-    Node(int data){
+    ListNode next;
+    ListNode(int data){
         this.data = data;
     }
 }

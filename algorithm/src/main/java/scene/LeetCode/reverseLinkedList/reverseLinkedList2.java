@@ -16,16 +16,16 @@ public class reverseLinkedList2 {
      * @param n
      * @return
      */
-    public static Node reverseLinkedList(Node head, int m, int n) {
-        Node dummy = new Node(0);
+    public static ListNode reverseLinkedList(ListNode head, int m, int n) {
+        ListNode dummy = new ListNode(0);
         dummy.next = head;
-        Node pre = dummy;
+        ListNode pre = dummy;
         for (int i = 1; i < m; i++) {
             pre = pre.next;
             head = pre.next;
         }
         for (int i = m; i < n; i++) {
-            Node next = head.next;
+            ListNode next = head.next;
             head.next = next.next;
             next.next = pre.next;
             pre.next = next;
@@ -34,11 +34,11 @@ public class reverseLinkedList2 {
     }
 
     public static void main(String[] args) {
-        Node head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = new Node(4);
-        head.next.next.next.next = new Node(5);
-        Node res = reverseLinkedList(head, 2, 4);
+        ListNode head = new ListNode(1);
+        head.next = new ListNode(2);
+        head.next.next = new ListNode(3);
+        head.next.next.next = new ListNode(4);
+        head.next.next.next.next = new ListNode(5);
+        ListNode res = reverseLinkedList(head, 2, 4);
     }
 }

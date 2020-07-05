@@ -4,7 +4,7 @@ package scene.LeetCode.oddBeforeEven;
  * @Author:Gpw
  * @Date:2020/4/24
  * @Description:scene.LeetCode.oddBeforeEven   腾讯笔试题，要保证相对位置不变
- * 把一个字符串的大写字母放到字符串的后面，各个字符的相对位置不变，且不能申请额外的空间，1<=s.length<=1000
+ * 把一个字符串的字母放到字符串的后面，各个字符的相对位置不变，且不能申请额外的空间，1<=s.length<=1000
  *
  * 解法：如果碰到大写，就插入到字符串的最后面
  */

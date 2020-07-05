@@ -15,31 +15,31 @@ package scene.LeetCode.reverseLinkedList;
  *  时间复杂度 O(n)
  **/
 public class reverseLinkedList {
-    public static Node reverseLinkedList(Node head){
+    public static ListNode reverseLinkedList(ListNode head){
 
         if(head == null)
             return null;
         //前一结点
-        Node preNode = null;
+        ListNode preListNode = null;
         //当前结点
-        Node curNode = head;
+        ListNode curListNode = head;
 
-        while(curNode != null){
-            Node nextNode = curNode.next;
-            curNode.next = preNode;
-            preNode = curNode;
-            curNode = nextNode;
+        while(curListNode != null){
+            ListNode nextListNode = curListNode.next;
+            curListNode.next = preListNode;
+            preListNode = curListNode;
+            curListNode = nextListNode;
         }
 
-        return preNode;
+        return preListNode;
     }
 
     public static void main(String[] args) {
-        Node n1 = new Node(1);
-        Node n2 = new Node(2);
-        Node n3 = new Node(3);
-        Node n4 = new Node(4);
-        Node n5 = new Node(5);
+        ListNode n1 = new ListNode(1);
+        ListNode n2 = new ListNode(2);
+        ListNode n3 = new ListNode(3);
+        ListNode n4 = new ListNode(4);
+        ListNode n5 = new ListNode(5);
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
