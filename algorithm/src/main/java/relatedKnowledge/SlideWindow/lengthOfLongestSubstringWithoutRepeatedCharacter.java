@@ -1,4 +1,4 @@
-package scene.LeetCode;
+package relatedKnowledge.SlideWindow;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ public class lengthOfLongestSubstringWithoutRepeatedCharacter {
 
     public static int solution(String s) {
         if (s.length()==0) return 0;
-        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
+        HashMap<Character, Integer> map = new HashMap<>();
         int max = 0;
         int left = 0;
         for(int i = 0; i < s.length(); i ++){

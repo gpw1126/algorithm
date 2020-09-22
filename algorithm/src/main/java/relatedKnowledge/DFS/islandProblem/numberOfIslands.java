@@ -1,4 +1,4 @@
-package scene.LeetCode.islandProblem;
+package relatedKnowledge.DFS.islandProblem;
 
 /**
  * @Author: Gpw

@@ -8,6 +8,11 @@ package relatedKnowledge.Singleton;
  * 1.synchronized修饰getInstance()方法，但是惨重的效率代价
  * 2.synchronized来同步部分代码块，并且通过volatile避免初始化操作的指令重排序
  * 缺点：在JDK1.5之后才能保证正确性，比较丑陋复杂，不推荐。
+ *
+ * 两次if判断
+ * 1.同步代码块外加判空条件是为了程序效率。因为去掉之后不管instance是否初始化都会进行synchronized重操作消耗性能。
+ * 2.同步代码块里加判空条件是为了防止多线程情况下多次初始化实例。假设a、b两个线程都通过第一个判空条件，假设a先获得锁
+ *   进入同步代码块初始化instance，a释放锁。接着b获得锁进入同步代码块也直接初始化instance，导致初始化两次。
  */
 public class DCL {
     private volatile static DCL instance = null;

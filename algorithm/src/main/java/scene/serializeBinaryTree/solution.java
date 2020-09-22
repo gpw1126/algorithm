@@ -36,7 +36,7 @@ public class solution {
             index++;
             return null;
         }else{
-            System.out.print(strArr[index] + " ");
+//            System.out.print(strArr[index] + " ");
             node = new Node(Integer.parseInt(strArr[index++]));
             node.left = deSerialize(str);
             node.right = deSerialize(str);
@@ -44,24 +44,34 @@ public class solution {
         return node;
     }
 
+    public static void DFS(Node root) {
+        if (root == null) {
+            return;
+        }
+        System.out.println(root.data);
+        DFS(root.left);
+        DFS(root.right);
+    }
+
     public static void main(String[] args) {
-        Node A = new Node(8);
-        Node B = new Node(6);
-        Node C = new Node(10);
-        Node D = new Node(5);
-        Node E = new Node(7);
-        Node F = new Node(9);
-        Node G = new Node(11);
+//        Node A = new Node(8);
+//        Node B = new Node(6);
+//        Node C = new Node(10);
+//        Node D = new Node(5);
+//        Node E = new Node(7);
+//        Node F = new Node(9);
+//        Node G = new Node(11);
+//        A.left = B;
+//        A.right = C;
+//        B.left = D;
+//        B.right = E;
+//        C.left = F;
+//        C.right = G;
+//        String str = serialize(A);
+//        System.out.println(str);
 
-        A.left = B;
-        A.right = C;
-        B.left = D;
-        B.right = E;
-        C.left = F;
-        C.right = G;
-
-        String str = serialize(A);
-        System.out.println(str);
-        deSerialize(str);
+        String tree = "3,9,#,#,20,15,#,#,17,#,#";
+        Node root = deSerialize(tree);
+        DFS(root);
     }
 }

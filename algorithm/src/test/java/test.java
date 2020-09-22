@@ -77,20 +77,22 @@ public class test {
 
     @Test
     public void split() {
-        String s = "a good   example";
-        String[] array = s.split(" ");
-        for (String str : array) {
-            str.trim();
-            System.out.println(str);
-        }
-        log.info("hhh");
-//        LinkedList<Integer> list = new LinkedList<>();
-//        list.addFirst();
-    }
+//        String s = "a good   example";
+//        String[] array = s.split(" ");
+//        for (String str : array) {
+//            str.trim();
+//            System.out.println(str);
+//        }
+//        log.info("hhh");
 
-    @Test
-    public void lambdaTest() {
-        System.out.println(1 == 2 ? -1 : -2 - 3);
+        // 删除字符串中连续的abc
+        String ans = "";
+        String s = "wnabcagaabcsi";
+        String[] strArr = s.split("abc");
+        for (String str : strArr) {
+            ans = ans + str;
+        }
+        System.out.println(ans);
     }
 
     @Test
@@ -112,6 +114,15 @@ public class test {
     public void yiwei() {
         System.out.println(1 << 4);
         System.out.println("flow".indexOf("flower"));
+
+        int i = 0;
+        System.out.println(i++ == 0);
+        System.out.println(++i == 1);
+        System.out.println(i == 2);
+
+        int x = 10;
+        int a = x + x++;
+        System.out.println(a);
     }
 
     @Test
@@ -126,11 +137,23 @@ public class test {
     }
 
     @Test
-    public void integer() {
-        Integer a =1, b = 1;
-        System.out.println(a == b); // true
-        Integer c = new Integer(1);
-        Integer d = new Integer(1);
-        System.out.println(c == d); //false
+    public void compare() {
+//        Integer a =1, b = 1;
+//        System.out.println(a == b); // true
+//
+//        int c = 7;
+//        Integer d = new Integer(7);
+//        System.out.println(c == d); // true
+//
+//        String s1 = "abc";
+//        String s2 = "abc";
+//        System.out.println(s1 == s2); // true
+//
+        String str1 = "abc";
+        Object o = new Object();
+        o.getClass();
+        String str2 = new String("abc");
+        System.out.println(str1 == str2); // false
+        System.out.println(str1 == str2.intern()); // true
     }
 }

@@ -15,8 +15,8 @@ package scene.LeetCode.reverseLinkedList;
  *  时间复杂度 O(n)
  **/
 public class reverseLinkedList {
-    public static ListNode reverseLinkedList(ListNode head){
 
+    public static ListNode reverseLinkedList(ListNode head){
         if(head == null)
             return null;
         //前一结点
@@ -30,20 +30,23 @@ public class reverseLinkedList {
             preListNode = curListNode;
             curListNode = nextListNode;
         }
-
         return preListNode;
     }
 
-    public static void main(String[] args) {
-        ListNode n1 = new ListNode(1);
-        ListNode n2 = new ListNode(2);
-        ListNode n3 = new ListNode(3);
-        ListNode n4 = new ListNode(4);
-        ListNode n5 = new ListNode(5);
-        n1.next = n2;
-        n2.next = n3;
-        n3.next = n4;
-        n4.next = n5;
-        System.out.println(reverseLinkedList(n1).data);
+    /**
+     * 递归解法
+     * @param head
+     * @return
+     */
+    public static ListNode reverseLinkedListRecur(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        // 递归到最后一个结点，该结点就是发转后的头结点
+        ListNode tail = reverseLinkedListRecur(head.next);
+        // head的下一个结点指向head，完成一次反转
+        head.next.next = head;
+        head.next = null;
+        return tail;
     }
 }

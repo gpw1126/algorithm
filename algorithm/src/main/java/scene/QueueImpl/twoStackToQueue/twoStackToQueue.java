@@ -7,7 +7,6 @@ import java.util.Stack;
  * @Date:2019/10/10
  * @Description:scene
  *  用两个栈来实现一个队列，完成队列的add poll peek操作。队列中的元素为int类型
- * @Version:1.0
  */
 public class twoStackToQueue {
 
