@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff8fa352-8c13-440b-aa53-963e388d43da" name="Default Changelist" comment="基于Kubernetes和Docker的容器云平台功能测试代码推送">
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/WrittenExamination/vivo/mergeKLists/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/WrittenExamination/vivo/mergeKLists/mergeKLists$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/WrittenExamination/vivo/mergeKLists/mergeKLists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/WrittenExamination/vivo/plantFlowers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/CountDownLatch/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/CountDownLatch/countDownLatchRunnable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/Generic/GenericObj.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/Generic/GenericTestCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/Greedy/minimumCost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/LRU/LRUCache$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/LRU/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/LRU/LRUCacheManual/LRUCacheManual.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/LRU/LRUCacheManual/LRUNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/LRU/LRUCacheManual/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/AlternatePrintABC/AlternatePrintABC$ThreadA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/AlternatePrintABC/AlternatePrintABC$ThreadB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/AlternatePrintABC/AlternatePrintABC$ThreadC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/AlternatePrintABC/AlternatePrintABC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/ProducerAndConsumer/ConsumeThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/ProducerAndConsumer/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/ProducerAndConsumer/ProducerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/ProducerAndConsumer/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/reentrantlockTest$interruptDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/ReentrantLock/reentrantlockTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/Singleton/DCL/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/Singleton/Hungry/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/Singleton/Lazy/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/dp/coinChange/coinChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/dp/maxGiftValue/maxGiftValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/dp/maxGiftValue/minimumSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/dp/maxSquare/maximalSquare.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/priorityQueue/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/priorityQueue/priorityQueue$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/relatedKnowledge/priorityQueue/priorityQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/ClockWisePrintMatrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/ThreeSum/ThreeSum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/TopK/topKFrequentElements.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/TopK/topKNums.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/firstCommonNode/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/firstCommonNode/firstCommonNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/firstUniqChar/FirstNotRepeatingChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/firstUniqChar/firstUniqChar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/isBinarySortTreePostOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/maxSubArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/mergeIntervals.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/mergeTwoSortedList/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/mergeTwoSortedList/mergeTwoSortedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/parenthesesRelated/longestValidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/parenthesesRelated/parenthesesMatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/reverseLinkedList/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/reverseLinkedList/reverseLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/reverseLinkedList/reverseLinkedList2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/NOWCODER/compressString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/NOWCODER/flipSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/QueueImpl/arrayToQueue/arrayToQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/QueueImpl/arrayToQueue/concurrentTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/QueueImpl/arrayToQueue/concurrentTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/QueueImpl/arrayToQueue/concurrentTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/QueueImpl/twoStackToQueue/twoStackToQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/StackImpl/LinkedListToStack/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/StackImpl/LinkedListToStack/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/shuffle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/src/test/java/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/Count_B_In_A.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/Count_B_In_A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/FirstNotRepeatingChar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/FrogJumpStairs/fjs_general.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/FrogJumpStairs/fjs_general.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/Longest_common_subsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/lengthOfLongestSubstringWithoutRepeatedCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/lengthOfLongestSubstringWithoutRepeatedCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/oddBeforeEven/upgrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/oddBeforeEven/upgrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/removeLinkedListElements/removeLinkedListElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/removeLinkedListElements/removeLinkedListElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/rotateArrayRelated/rotateArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/LeetCode/rotateArrayRelated/rotateArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/BFS/BFS_traversing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/BFS/BFS_traversing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/DFS/DFS_traversing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/DFS/DFS_traversing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/inOrder/inOrder_Traversing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/inOrder/inOrder_Traversing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/postOrder/postOrder_Traversing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/postOrder/postOrder_Traversing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/preOrder/preOrder_Traversing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/TraversingBinaryTree/preOrder/preOrder_Traversing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/exchangeStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/exchangeStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/isBinarySortTreePostOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/longestPalindromeSubseq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/maxSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/rebuildBinaryTree/rebuildBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/rebuildBinaryTree/rebuildBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/reverseLinkedList/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/reverseLinkedList/reverseLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/serializeBinaryTree/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/classes/scene/serializeBinaryTree/solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/test5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/test6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/classes/scene/twoStackToQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/target/test-classes/test.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/controller/hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/controller/helloController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/bean/user.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/mapper/userMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/K8sApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/bean/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gpw/k8s/controller/userController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gpw/k8s/K8sApplicationTests.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="k8s" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="k8s" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="k8s" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-30" />
+    <option name="y" value="340" />
+    <option name="width" value="1350" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="k8s" type="b2602c69:ProjectViewProjectNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\idea\workspace\k8s\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="K8sApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="k8s" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gpw.k8s.K8sApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff8fa352-8c13-440b-aa53-963e388d43da" name="Default Changelist" comment="" />
+      <created>1615205995991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615205995991</updated>
+      <workItem from="1615206000665" duration="6055000" />
+      <workItem from="1615251283369" duration="356000" />
+      <workItem from="1615251677183" duration="8714000" />
+    </task>
+    <task id="LOCAL-00001" summary="基于Kubernetes和Docker的容器云平台功能测试代码推送">
+      <created>1615266233232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615266233232</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基于Kubernetes和Docker的容器云平台功能测试代码推送">
+      <created>1615267015476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615267015476</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15125000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23994638" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34217876" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1997319" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基于Kubernetes和Docker的容器云平台功能测试代码推送" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于Kubernetes和Docker的容器云平台功能测试代码推送" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gpw/k8s/controller/helloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gpw/k8s/K8sApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/repository/org/springframework/spring-web/5.1.7.RELEASE/spring-web-5.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1731">
+          <caret line="101" column="72" selection-start-line="101" selection-start-column="72" selection-end-line="101" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gpw/k8s/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gpw/k8s/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gpw/k8s/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gpw/k8s/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gpw/k8s/K8sApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gpw/k8s/controller/userController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
